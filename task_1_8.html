@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task_1_8</title>
+</head>
+<body>
+	<style>
+		*{margin: 0;padding:0;}
+		body{font-size: 0;}
+		.all{width: 100%;box-sizing:border-box;padding:20px 0 0 20px;}
+		.visbox{border:1px solid #999;background-color: #eee;height: 50px;}
+		
+		.box{height: 70px;display: inline-block;width: 33.3%;box-sizing:border-box;padding: 0 20px 20px 0;}
+
+		.row_2 .box_1,.row_2 .box_3{width: 25%;} 
+		.row_2 .box_2{width: 50%;}
+
+		.row_3 .box_1,.row_3 .box_2{width: 8.3%;}
+		.row_3 .box_3,.row_3 .box_4{width: 16.6%;}
+		.row_3 .box_5{width: 50%;}
+
+		@media screen and (max-width: 768px){
+			.row_1 .box_1,.row_1 .box_2{width: 50%;} 
+			.row_1 .box_3{width: 100%;}
+
+			.row_3 .box_1,.row_3 .box_2{width: 16.6%;}
+			.row_3 .box_3{width: 66.7%;}
+			.row_3 .box_4,.row_3 .box_5{width: 25%;}
+		}
+
+
+	</style>
+	<div class="all">
+		
+		<div class="row_1">
+			<div class="box box_1">
+				<div class="visbox"></div>
+			</div>
+			<div class="box box_2">
+				<div class="visbox"></div>
+			</div>
+			<div class="box box_3">
+				<div class="visbox"></div>
+			</div>
+		</div>
+		<div class="row_2">
+			<div class="box box_1">
+				<div class="visbox"></div>
+			</div>
+			<div class="box box_2">
+				<div class="visbox"></div>
+			</div>
+			<div class="box box_3">
+				<div class="visbox"></div>
+			</div>
+		</div>
+		<div class="row_3">
+			<div class="box box_1">
+				<div class="visbox"></div>
+			</div>
+			<div class="box box_2">
+				<div class="visbox"></div>
+			</div>
+			<div class="box box_3">
+				<div class="visbox"></div>
+			</div>
+			<div class="box box_4">
+				<div class="visbox"></div>
+			</div>
+			<div class="box box_5">
+				<div class="visbox"></div>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>
